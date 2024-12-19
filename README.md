@@ -1,4 +1,4 @@
-# Template Mod
+# Shishir Mod
 
 Welcome to the **Shishir Mod** project! This is a Forge-based Minecraft mod that introduces custom items to enhance your gameplay.
 
@@ -42,8 +42,8 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ShishirShekhar/ShishirMinecraftMod.git
-   cd ShishirMinecraftMod
+   git clone https://github.com/ShishirShekhar/Shishir-Minecraft-Mod-v1.21.1.git
+   cd Shishir-Minecraft-Mod-v1.21.1
    ```
 
 2. Import the project into your preferred IDE:
