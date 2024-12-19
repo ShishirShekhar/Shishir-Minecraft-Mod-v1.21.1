@@ -9,7 +9,7 @@ Welcome to the **Shishir Mod** project! This is a Forge-based Minecraft mod that
 - **Version**: `0.0.1-1.21.1`
 - **Minecraft Version**: `1.21.1`
 - **Forge Version**: `52.0.28`
-- **License**: All Rights Reserved
+- **License**: MIT
 - **Author**: Shishir Shekhar
 
 This mod provides a foundational setup for creating a Minecraft mod using Forge. It includes necessary configurations, a basic structure, and is ready for customization.
