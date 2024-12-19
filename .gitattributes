@@ -1,0 +1,34 @@
+# Normalize line endings for source files
+*.java text eol=lf
+*.kt text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+
+# Keep binary files untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ogg binary
+*.mp3 binary
+*.jar binary
+*.zip binary
+*.dat binary
+*.class binary
+
+# Normalize line endings for specific project-generated files
+src/generated/**/.cache/cache text eol=lf
+src/generated/**/*.json text eol=lf
+run/**/*.log text eol=lf
+config/**/*.toml text eol=lf
+
+# Handle Gradle wrapper files
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+
+# GitHub Actions workflows
+.github/workflows/*.yml text eol=lf

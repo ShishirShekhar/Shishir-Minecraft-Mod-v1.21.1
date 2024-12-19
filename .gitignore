@@ -1,0 +1,49 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# VS Code
+.vscode
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Gradle wrapper files
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Generated files
+run
+runClient.launch
+runServer.launch
+
+# Local environment files
+.env
+.local
