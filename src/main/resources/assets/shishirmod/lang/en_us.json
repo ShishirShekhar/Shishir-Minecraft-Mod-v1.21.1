@@ -1,4 +1,6 @@
 {
     "item.shishirmod.shishirrite": "Shishirrite Gem",
-    "item.shishirmod.raw_shishirrite": "Raw Shishirrite"
+    "item.shishirmod.raw_shishirrite": "Raw Shishirrite",
+    "block.shishirmod.shishirrite_block": "Block of Shishirrite",
+    "block.shishirmod.raw_shishirrite_block": "Block of Raw Shishirrite"
 }
