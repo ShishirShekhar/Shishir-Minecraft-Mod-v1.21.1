@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "shishirmod:shishirrite_block"
+        }
+    ],
+    "result": {
+        "id": "shishirmod:shishirrite",
+        "count": 9
+    }
+}
