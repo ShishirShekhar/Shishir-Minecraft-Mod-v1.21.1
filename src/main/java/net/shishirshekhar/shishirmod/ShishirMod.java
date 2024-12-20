@@ -17,6 +17,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.shishirshekhar.shishirmod.block.ModBlocks;
+import net.shishirshekhar.shishirmod.item.ModCreativeModTab;
 import net.shishirshekhar.shishirmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -42,6 +43,9 @@ public class ShishirMod
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         ModBlocks.register(modEventBus);
+
+        // Register the Deferred Register to the mod event bus so creative tabs get registered
+        ModCreativeModTab.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
