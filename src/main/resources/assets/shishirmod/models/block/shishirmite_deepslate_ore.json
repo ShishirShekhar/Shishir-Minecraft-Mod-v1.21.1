@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "shishirmod:block/shishirmite_deepslate_ore"
+    }
+}

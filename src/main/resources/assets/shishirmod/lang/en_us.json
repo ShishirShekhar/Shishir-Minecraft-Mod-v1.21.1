@@ -3,6 +3,8 @@
     "item.shishirmod.raw_shishirmite": "Raw Shishirmite",
     "block.shishirmod.shishirmite_block": "Block of Shishirmite",
     "block.shishirmod.raw_shishirmite_block": "Block of Raw Shishirmite",
+    "block.shishirmod.shishirmite_ore": "Shishirmite Ore",
+    "block.shishirmod.shishirmite_deepslate_ore": "Deepslate Shishirmite Ore",
     "creativetab.shishirmod.shishirmite_items": "Shishirmite Items",
     "creativetab.shishirmod.shishirmite_blocks": "Shishirmite Blocks"
 }

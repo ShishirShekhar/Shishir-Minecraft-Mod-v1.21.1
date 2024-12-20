@@ -32,6 +32,8 @@ public class ModCreativeModTab {
                             .displayItems((itemDisplayParameters, output) -> {
                                 output.accept(ModBlocks.SHISHIRMITE_BLOCK.get());
                                 output.accept(ModBlocks.RAW_SHISHIRMITE_BLOCK.get());
+                                output.accept(ModBlocks.SHISHIRMITE_ORE.get());
+                                output.accept(ModBlocks.SHISHIRMITE_DEEPSLATE_ORE.get());
                             })
                             .build());
 
