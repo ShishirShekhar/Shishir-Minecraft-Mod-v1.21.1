@@ -3,11 +3,11 @@
     "category": "misc",
     "ingredients": [
         {
-            "item": "shishirmod:shishirrite_block"
+            "item": "shishirmod:shishirmite_block"
         }
     ],
     "result": {
-        "id": "shishirmod:shishirrite",
+        "id": "shishirmod:shishirmite",
         "count": 9
     }
 }

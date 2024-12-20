@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cube_all",
     "textures": {
-        "all": "shishirmod:block/shishirrite_block"
+        "all": "shishirmod:block/raw_shishirmite_block"
     }
 }

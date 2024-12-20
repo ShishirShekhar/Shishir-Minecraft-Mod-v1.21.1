@@ -3,11 +3,11 @@
     "category": "misc",
     "cookingtime": 100,
     "experience": 0.25,
-    "group": "shishirrite",
+    "group": "shishirmite",
     "ingredient": {
-        "item": "shishirmod:raw_shishirrite"
+        "item": "shishirmod:raw_shishirmite"
     },
     "result": {
-        "id": "shishirmod:shishirrite"
+        "id": "shishirmod:shishirmite"
     }
 }

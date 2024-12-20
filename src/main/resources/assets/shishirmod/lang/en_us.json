@@ -1,8 +1,8 @@
 {
-    "item.shishirmod.shishirrite": "Shishirrite Gem",
-    "item.shishirmod.raw_shishirrite": "Raw Shishirrite",
-    "block.shishirmod.shishirrite_block": "Block of Shishirrite",
-    "block.shishirmod.raw_shishirrite_block": "Block of Raw Shishirrite",
-    "creativetab.shishirmod.shishirrite_items": "Shishirrite Items",
-    "creativetab.shishirmod.shishirrite_blocks": "Shishirrite Blocks"
+    "item.shishirmod.shishirmite": "Shishirmite Gem",
+    "item.shishirmod.raw_shishirmite": "Raw Shishirmite",
+    "block.shishirmod.shishirmite_block": "Block of Shishirmite",
+    "block.shishirmod.raw_shishirmite_block": "Block of Raw Shishirmite",
+    "creativetab.shishirmod.shishirmite_items": "Shishirmite Items",
+    "creativetab.shishirmod.shishirmite_blocks": "Shishirmite Blocks"
 }

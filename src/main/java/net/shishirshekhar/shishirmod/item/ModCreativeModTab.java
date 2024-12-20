@@ -14,24 +14,24 @@ public class ModCreativeModTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister
             .create(Registries.CREATIVE_MODE_TAB, ShishirMod.MODID);
 
-    public static final RegistryObject<CreativeModeTab> SHISHIRRITE_ITEMS_TABS = CREATIVE_MODE_TABS
-            .register("shishirrite_items_tab",
-                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SHISHIRRITE.get()))
-                            .title(Component.translatable("creativetab.shishirmod.shishirrite_items"))
+    public static final RegistryObject<CreativeModeTab> SHISHIRMITE_ITEMS_TABS = CREATIVE_MODE_TABS
+            .register("shishirmite_items_tab",
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SHISHIRMITE.get()))
+                            .title(Component.translatable("creativetab.shishirmod.shishirmite_items"))
                             .displayItems((itemDisplayParameters, output) -> {
-                                output.accept(ModItems.SHISHIRRITE.get());
-                                output.accept(ModItems.RAW_SHISHIRRITE.get());
+                                output.accept(ModItems.SHISHIRMITE.get());
+                                output.accept(ModItems.RAW_SHISHIRMITE.get());
                             })
                             .build());
 
-    public static final RegistryObject<CreativeModeTab> SHISHIRRITE_BLOCKS_TABS = CREATIVE_MODE_TABS
-            .register("shishirrite_blocks_tab",
-                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SHISHIRRITE_BLOCK.get()))
-                    .withTabsBefore(SHISHIRRITE_ITEMS_TABS.getId())
-                            .title(Component.translatable("creativetab.shishirmod.shishirrite_blocks"))
+    public static final RegistryObject<CreativeModeTab> SHISHIRMITE_BLOCKS_TABS = CREATIVE_MODE_TABS
+            .register("shishirmite_blocks_tab",
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SHISHIRMITE_BLOCK.get()))
+                    .withTabsBefore(SHISHIRMITE_ITEMS_TABS.getId())
+                            .title(Component.translatable("creativetab.shishirmod.shishirmite_blocks"))
                             .displayItems((itemDisplayParameters, output) -> {
-                                output.accept(ModBlocks.SHISHIRRITE_BLOCK.get());
-                                output.accept(ModBlocks.RAW_SHISHIRRITE_BLOCK.get());
+                                output.accept(ModBlocks.SHISHIRMITE_BLOCK.get());
+                                output.accept(ModBlocks.RAW_SHISHIRMITE_BLOCK.get());
                             })
                             .build());
 

@@ -19,8 +19,8 @@ This mod provides a foundational setup for creating a Minecraft mod using Forge.
 ## Features
 
 - **Custom Items**:
-  - *Shishirrite*: A rare and powerful material for advanced crafting.
-  - *Raw Shishirrite*: The unrefined version of Shishirrite, obtained through mining.
+  - *Shishirmite*: A rare and powerful material for advanced crafting.
+  - *Raw Shishirmite*: The unrefined version of Shishirmite, obtained through mining.
 
 - **Creative Mode Integration**:
   - Items are added to the "Ingredients" tab in Creative Mode.

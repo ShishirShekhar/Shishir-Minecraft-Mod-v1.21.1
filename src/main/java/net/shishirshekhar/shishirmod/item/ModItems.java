@@ -13,10 +13,10 @@ public class ModItems {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
                         ShishirMod.MODID);
 
-        public static final RegistryObject<Item> SHISHIRRITE = ITEMS.register("shishirrite",
+        public static final RegistryObject<Item> SHISHIRMITE = ITEMS.register("shishirmite",
                         () -> new Item(new Item.Properties()));
 
-        public static final RegistryObject<Item> RAW_SHISHIRRITE = ITEMS.register("raw_shishirrite",
+        public static final RegistryObject<Item> RAW_SHISHIRMITE = ITEMS.register("raw_shishirmite",
                         () -> new Item(new Item.Properties()));
 
         public static void register(IEventBus eventBus) {

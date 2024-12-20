@@ -74,13 +74,13 @@ public class ShishirMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModItems.SHISHIRRITE);
-            event.accept(ModItems.RAW_SHISHIRRITE);
+            event.accept(ModItems.SHISHIRMITE);
+            event.accept(ModItems.RAW_SHISHIRMITE);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.SHISHIRRITE_BLOCK);
-            event.accept(ModBlocks.RAW_SHISHIRRITE_BLOCK);
+            event.accept(ModBlocks.SHISHIRMITE_BLOCK);
+            event.accept(ModBlocks.RAW_SHISHIRMITE_BLOCK);
         }
     }
 

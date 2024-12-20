@@ -17,11 +17,11 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             ShishirMod.MODID);
 
-    public static final RegistryObject<Block> SHISHIRRITE_BLOCK = registerBlock("shishirrite_block",
+    public static final RegistryObject<Block> SHISHIRMITE_BLOCK = registerBlock("shishirmite_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)));
 
-    public static final RegistryObject<Block> RAW_SHISHIRRITE_BLOCK = registerBlock("raw_shishirrite_block",
+    public static final RegistryObject<Block> RAW_SHISHIRMITE_BLOCK = registerBlock("raw_shishirmite_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

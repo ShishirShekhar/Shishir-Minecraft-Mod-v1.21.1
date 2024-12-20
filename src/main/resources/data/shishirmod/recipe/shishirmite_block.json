@@ -3,7 +3,7 @@
     "category": "misc",
     "key": {
         "A": {
-            "item": "shishirmod:shishirrite"
+            "item": "shishirmod:shishirmite"
         }
     },
     "pattern": [
@@ -12,7 +12,7 @@
         "AAA"
     ],
     "result": {
-        "id": "shishirmod:shishirrite_block",
+        "id": "shishirmod:shishirmite_block",
         "count": 1
     }
 }
