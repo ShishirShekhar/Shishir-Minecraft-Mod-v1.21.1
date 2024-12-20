@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "shishirmod:shishirmite_block",
+        "shishirmod:raw_shishirmite_block",
+        "shishirmod:shishirmite_ore",
+        "shishirmod:shishirmite_deepslate_block"
+    ]
+}
